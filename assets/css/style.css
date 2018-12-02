@@ -5,7 +5,7 @@ body{
 
 .nav_name {
     float: left;
-    background-color: teal;
+    background-color: #4aaaa5;
     font-size: 35px;
     font-weight: bold;
     font-family: serif;
@@ -16,11 +16,16 @@ body{
   }
 
   .nav_links {
-    float: right;
+    /* float: right; */
+    /* margin-right: auto; */
     padding: 5px;
     bottom:0;
     margin-top: 4%;
-    border-right: 6px gray
+    border-left: 1px solid #efefef;
+  }
+
+  .nav_display{
+      padding-right: 20px;
   }
 
   #headshot{
@@ -36,18 +41,40 @@ body{
 }
 
 .h1{
-    color: teal;
+    color: #4aaaa5;
     font-display: bold;
+}
+
+.card-image{
+    max-width: 200px;
+}
+
+.card-bg1 {
+    width: 200px;
+}
+
+.card-title-display{
+    position: absolute;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    padding: 4%;
+    margin-top: 125px;
+    max-width: 200px;
+    width: 100%;
 }
 
 .footer-display{
     text-align: center;
-    background-color: gray;
+    background-color: #666666;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 50px;
+    border-top: 8px solid #4aaaa5
 }
 
 .footer-font{
     color: white;
+    font-size: 12px;
 }
